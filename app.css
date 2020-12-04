@@ -17,18 +17,6 @@ body {
     text-shadow: 2px 2px rgb(117, 104, 104);
 }
 
-.header1 {
-    display: flex;
-    flex-wrap: flex;
-    justify-content: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 400px;
-    font-family: 'Shadows Into Light Two', cursive;
-    color: white;
-    font-size: 35px;
-    text-shadow: 2px 2px rgb(117, 104, 104);
-}
 
 .header2 {
     display: flex;
@@ -40,10 +28,6 @@ body {
     color: white;
     font-size: 25px;
     text-shadow: 2px 2px rgb(117, 104, 104);
-}
-
-.button {
-    background-color: transparent;
 }
 
 
@@ -58,14 +42,6 @@ p {
 
 .container {
     justify-content: center;
-    margin-bottom: 20px;
-}
-
-
-
-.favorites {
-    font-size: 40px;
-    margin-left: 70px;
     margin-bottom: 20px;
 }
 
@@ -119,14 +95,14 @@ p {
     .row {
         max-height: 1120px;
         max-width: 1120px;
-        margin-left: 400px;
+        margin-left: 600px;
     }
 
 
     .top-content {
         justify-content: center;
         margin-top: 40px;
-        margin-left: 560px;
+        margin-left: 570px;
     }
 
     .header2 {
