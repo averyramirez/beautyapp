@@ -64,6 +64,11 @@ p {
     margin-bottom: 20px;
 }
 
+.apps {
+    max-width: 80px;
+    max-height: 80px;
+}
+
 
 
 
