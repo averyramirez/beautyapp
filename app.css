@@ -1,0 +1,140 @@
+body {
+    background-image: linear-gradient(to bottom, #9d87a8, #aa8cad, #b890b2, #c594b5, #d399b8, #da9ab4, #e19baf, #e69daa, #e49d9f, #e09d95, #da9f8c, #d3a085);
+    background-attachment: fixed;
+}
+
+
+
+
+.hello {
+    display: flex;
+    flex-wrap: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    font-size: 55px;
+    text-shadow: 2px 2px rgb(117, 104, 104);
+}
+
+.header1 {
+    display: flex;
+    flex-wrap: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 400px;
+    font-family: 'Shadows Into Light Two', cursive;
+    color: white;
+    font-size: 35px;
+    text-shadow: 2px 2px rgb(117, 104, 104);
+}
+
+.header2 {
+    display: flex;
+    flex-wrap: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Shadows Into Light Two', cursive;
+    color: white;
+    font-size: 25px;
+    text-shadow: 2px 2px rgb(117, 104, 104);
+}
+
+.button {
+    background-color: transparent;
+}
+
+
+
+p {
+    color: rgb(43, 40, 40);
+    text-shadow: 1px 1px rgb(92, 92, 92);
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 22px;
+}
+
+
+.container {
+      justify-content: center;
+}
+
+
+
+.favorites {
+    font-size: 40px;
+    margin-left: 70px;
+    margin-bottom: 20px;
+}
+
+
+
+.row {
+    max-height: 500px;
+    max-width: 500px;
+
+}
+
+
+.top-content {
+    margin-top: 25px;
+}
+
+
+
+
+
+
+@media (min-width: 550px) {
+
+    .hello {
+        display: flex;
+        flex-wrap: flex;
+        justify-content: center;
+        margin-top: 50px;
+        font-family: 'Dancing Script', cursive;
+        color: white;
+        font-size: 120px;
+        text-shadow: 2px 2px rgb(117, 104, 104);
+    }
+
+    .header {
+        font-size: 40px;
+    }
+
+    .favorites {
+        font-size: 70px;
+        margin-left: 670px;
+    }
+
+
+    .row img {
+        max-height: 500px;
+        max-width: 500px;
+        justify-content: center;
+    }
+    
+    .row {
+        max-height: 1120px;
+        max-width: 1120px;
+        margin-left: 400px;
+    }
+
+
+    .top-content {
+        justify-content: center;
+        margin-top: 40px;
+        margin-left: 560px;
+    }
+
+    .header2 {
+        font-size: 40px;
+    }
+    
+    .carousel-caption{
+        margin-right: 20px;   
+    }
+    
+}
+}
