@@ -61,12 +61,13 @@ p {
 .icon {
     margin-right: 8px;
     margin-left: 8px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .apps {
     max-width: 70px;
     max-height: 70px;
+    margin-bottom: 40px;
 }
 
 
